@@ -98,23 +98,6 @@ detections = model.predict('path/to/image.jpg')
 model.visualize(detections, 'output.jpg')
 ```
 
-### Training Custom Models
-
-```bash
-python train.py --model <model_name> \
-                 --dataset <dataset_path> \
-                 --epochs 100 \
-                 --batch-size 32
-```
-
-### Evaluation
-
-```bash
-python evaluate.py --model <model_path> \
-                   --dataset <dataset_path> \
-                   --metrics mAP,precision,recall
-```
-
 ## 🔧 Model Details
 
 Each model directory contains:
@@ -151,7 +134,7 @@ This project is open source. Please see the LICENSE file for details.
 
 For questions or suggestions, please reach out to the repository owner or open an issue.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Berkeley DeepDrive for the BDD100K dataset
 - India Driving Dataset creators for the IDD dataset
